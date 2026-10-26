@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+}
+#hero{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-image: url('cover.jpg');
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px white;
+    margin: 0 auto;
+}
+#hero h1, 
+#hero h4{
+    border-radius: 4px;
+    background-color: rgb(235, 235, 235);
+    padding: 5px 10px;
+}
+.section{
+    width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(#e999e691, #8d94f3);
+}
+h2{
+    margin-top: 0;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 600px;
+    height: 300px;
+}
+.card{
+    width: 200px;
+    padding: 20px;
+}
+.cover-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid white;
+}
+#img-concert{
+    background-image: url('Theater.jpg');
+}
+#img-park{
+    background-image: url('park.jpg');
+}
+#img-seaside{
+    background-image: url('seaside.jpg');
+}
+#bio{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent;
+    background: 
+    linear-gradient(white, white) padding-box,
+    linear-gradient(#e999e691, #8d94f3) border-box;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+#profile-pic{
+    width: 200px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-image: url('profile-pic.jpg');
+    margin: 0 15px;
+}
+#bio-text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#bio-text p{
+    width: 200px;
+    margin: 10px auto 20px;
+}
+#bio-text h2{
+    margin: 0 auto;
+}
